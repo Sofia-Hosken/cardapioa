@@ -1,0 +1,44 @@
+/* Footer.module.css */
+
+.footer {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    border-top: 1px solid var(--accent);
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: var(--secondary);
+  }
+  
+  .footer .copyright {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .footer .social-icons {
+    margin-top: 20px;
+  }
+  
+  .footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+  
+  .footer .social-icons a:hover {
+    color: var(--secondary);
+  }
+  

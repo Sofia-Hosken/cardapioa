@@ -1,0 +1,58 @@
+/* Card.module.css */
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaço superior */
+    padding: 0 20px; /* Espaço lateral */
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 8px;
+  }
+  
+  .card p:first-child {
+    margin-top: 0;
+  }
+  
+  .card p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Adicione outras regras de estilo conforme necessário */
+  

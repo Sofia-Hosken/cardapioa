@@ -1,0 +1,41 @@
+/* Estilização do Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--primary);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 100;
+    color:brown
+}
+
+/* Estilos do Título */
+.header span {
+    font-size: 1.5rem; /* 24px -> 16px = 1rem */
+    font-weight: bold;
+}
+
+/* Estilos dos Links */
+.header a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.125rem; /* 18px */
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+/* Estilo dos Links ao passar o mouse */
+.header a:hover {
+    color: red;
+}
+
+/* Adiciona uma sombra sutil no cabeçalho para distingui-lo do conteúdo abaixo */
+.header {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
